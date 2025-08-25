@@ -11,7 +11,14 @@
         .btn-outline-rosa { border: 2px solid #ff4d94; color: #ff4d94; }
         .btn-outline-rosa:hover { background: #ff4d94; color: white; }
         
-        
+           input[type="email"] {
+            border: 2px solid #ff4d94 !important;
+            box-shadow: none !important;
+           }
+           input[type="password"] {
+            border: 2px solid #ff4d94 !important;
+            box-shadow: none !important;
+           }
     </style>
 </head>
 <body class="d-flex justify-content-center align-items-center vh-100">
