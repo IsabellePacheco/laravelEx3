@@ -34,7 +34,7 @@
                     <form action="{{ route('logout') }}" method="POST" class="d-inline">
                         @csrf
                         <button type="submit" class="btn btn-outline-rosa mb-3">Sair</button>
-                        <a href="{{ route('user.index') }}" class="btn btn-outline-rosa mb-3">Início</a>
+                        <a href="{{ route('users.index') }}" class="btn btn-outline-rosa mb-3">Início</a>
                     </form>
                 </div>
             </div>

@@ -35,6 +35,9 @@
             </div>
 
             <button type="submit" class="btn btn-danger w-100">Entrar</button>
+            <a href="{{ route('users.edit') }}" class="btn btn-outline-rosa mb-3">Início</a>
+
+           
         </form>
     </div>
 </div>

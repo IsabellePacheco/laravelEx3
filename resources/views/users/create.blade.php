@@ -39,7 +39,7 @@
             </div>
         @endif
 
-        <form action="{{ route('user-store') }}" method="POST">
+        <form action="{{ route('users-store') }}" method="POST">
             @csrf
             <div class="mb-3">
                 <label class="form-label">Nome:</label>
@@ -54,7 +54,7 @@
                 <input type="password" name="password" class="form-control" required>
             </div>
             <button type="submit" class="btn btn-outline-rosa mb-3">Cadastrar</button>
-            <a href="{{ route('user.index') }}" class="btn btn-outline-rosa mb-3">Voltar</a>
+            <a href="{{ route('users.index') }}" class="btn btn-outline-rosa mb-3">Voltar</a>
         </form>
     </div>
 </body>

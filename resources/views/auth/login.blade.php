@@ -47,7 +47,7 @@
                 <input type="password" name="password" class="form-control btn-outline-rosa2 " required>
             </div>
             <button type="submit" class="btn  btn-outline-rosa mb-3">Entrar</button>
-            <a href="{{ route('user.index') }}" class="btn btn-outline-rosa mb-3">Voltar</a>
+            <a href="{{ route('users.index') }}" class="btn btn-outline-rosa mb-3">Voltar</a>
         </form>
     </div>
 </body>
