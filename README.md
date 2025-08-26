@@ -1,7 +1,7 @@
 # LARAVEL ATIVIDADE 3 
 
 ## Descrição
-- Este projeto é um sistema completo de autenticação de usuários, desenvolvido com o framework Laravel. Ele oferece funcionalidades essenciais para gerenciamento de contas, com interface moderna construída em Bootstrap
+>Este projeto é um sistema completo de autenticação de usuários, desenvolvido com o framework Laravel. Ele oferece funcionalidades essenciais para gerenciamento de contas, com interface moderna construída em Bootstrap
 
 ## Funcionalidades
 - Cadastro de novos usuários
