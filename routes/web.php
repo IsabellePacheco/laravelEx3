@@ -22,8 +22,8 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('/dashboard', [AuthController::class, 'dashboard'])->middleware('auth')->name('dashboard');
 
 // Edição de perfil (protegida)
-Route::get('/usuario/{id}/editar', [UserController::class, 'edit'])->middleware('auth')->name('users.edit.id');
-Route::put('/usuario/{id}', [UserController::class, 'update'])->middleware('auth')->name('user.update');
+Route::get('/usuario/{id}/editar', [UserController::class, 'edit'])->middleware('auth')->name('users.edit');
+Route::put('/usuario/{id}', [UserController::class, 'update'])->middleware('auth')->name('update');
 
 // Recuperação de senha
 Route::get('/esqueci-senha', [AuthController::class, 'showForgotForm'])->name('password.request');
